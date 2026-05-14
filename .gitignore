@@ -1,0 +1,52 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === VIRTUAL ENVIRONMENTS ===
+venv/
+env/
+ENV/
+.venv/
+
+# === JUPYTER & NOTEBOOKS ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === DATA & MODELS (LOCAL ONLY) ===
+data/raw/*.csv
+data/processed/
+models/*.pkl
+models/*.joblib
+models/*.onnx
+*.parquet
+
+# === IDE & EDITORS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS & MISC ===
+.DS_Store
+Thumbs.db
+*.log
+.env
